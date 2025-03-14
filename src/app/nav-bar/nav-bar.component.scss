@@ -1,0 +1,27 @@
+$bg-primary: #2c2a4a;
+$bg-secondary: #f30946;
+$bg-tertiary: #f2f2f2;
+$hover: #5c95ff;
+
+.navbar {
+  background-color: $bg-primary;
+  color: $bg-tertiary;
+  .logo {
+    color: $bg-secondary;
+    .title {
+      color: $bg-tertiary;
+    }
+  }
+  .nav-link {
+    color: $bg-tertiary;
+    &:hover {
+      color: $hover;
+    }
+    &.active {
+      color: $bg-secondary;
+    }
+  }
+  .navbar-toggler {
+    background-color: $bg-tertiary;
+  }
+}
